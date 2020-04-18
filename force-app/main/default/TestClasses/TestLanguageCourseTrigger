@@ -1,0 +1,7 @@
+@isTest
+private class TestLanguageCourseInstructorTrigger{
+
+    static testMethod validateLanguageCourseTrigger{
+     Language_Course_Instructor__c tObj = new Language_Course_Instructor__c();   
+    }
+}
