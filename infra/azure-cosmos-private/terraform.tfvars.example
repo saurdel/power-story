@@ -1,0 +1,8 @@
+subscription_id = "00000000-0000-0000-0000-000000000000"
+prefix          = "powerstory"
+location        = "eastus"
+
+cosmos_serverless = true
+cosmos_containers = {
+  stories = { partition_key_path = "/storyId" }
+}
